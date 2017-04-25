@@ -39,6 +39,16 @@
     background-color: #18BC9C;
 }
 
+#projects {
+    color: #2C3E50;
+    background-color: #fff;
+}
+
+.about {
+    margin-bottom: 2%;
+    font-family: "Ruda", cursive !important;
+}
+
 
 /* Images */
 .profilePic {
