@@ -3,7 +3,7 @@
 
         <title>My Portfolio</title>
 
-        <!--Bootstrap CSS-->
+        <!--Bootstrap-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
         <!--Fonts-->
@@ -15,19 +15,34 @@
 
         <!--Importing Anijs-->
         <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css" />
-           
+        
+        <!--Scripts-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         
     </head>
     <body>
       <div class="container-fluid">
-
           <!--NavBar-->
-
-          <!--Header-->
-          <div id="header" class="container"></div>
+          <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <!--Add Menu Button-->                    
+                </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#aboutMe">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </div>
+            </div>
+          </nav>
 
           <!--AboutMe-->
-          <div id="aboutme" class="container"></div>
+          <div id="aboutMe" class="container"></div>
 
           <!--Projects-->
           <div id="projects" class="container"></div>
@@ -35,13 +50,15 @@
           <!--Skills-->
           <div id="skills" class="container"></div>
 
-          <!--More-->
-          <div id="more" class="container"></div>
+          <!--Contact-->
+          <div id="contact" class="container"></div>
 
           <!--Footer-->
           <div id="footer" class="container"></div>
 
       </div>
+
+      <script src="https://anijs.github.io/lib/anijs/helpers/scrollreveal/anijs-helper-scrollreveal.js"></script>
 
     </body>
 </html>
