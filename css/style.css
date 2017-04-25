@@ -29,6 +29,20 @@
     background-color: #18BC9C;
 }
 
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #18BC9C;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #18BC9C;
+    background-color: #18BC9C;
+    margin-right: 5%;
+}
+
+navbar-nav {
+    margin: 7.5px -8px;
+}
+
 .navbar-inverse .navbar-nav>li>a {
     font-size: 120%;
 }
@@ -47,6 +61,10 @@
 .about {
     margin-bottom: 2%;
     font-family: "Ruda", cursive !important;
+}
+
+.myText {
+    padding: 0% 10%;
 }
 
 
