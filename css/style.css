@@ -1,3 +1,18 @@
+.container {
+    padding-right: 0px; 
+    padding-left: 0px; 
+    width: 100%;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* NavBar */
 .navbar-inverse {
     background-color: #2C3E50;
     border-color: #2C3E50;
