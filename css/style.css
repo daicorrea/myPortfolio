@@ -59,7 +59,7 @@ navbar-nav {
     padding: 4% 0%;
 }
 
-.about {
+.about .skills {
     margin-bottom: 2%;
     font-family: "Ruda", cursive !important;
 }
@@ -71,6 +71,7 @@ navbar-nav {
 .mytitle {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 50px;
+    margin-bottom: 3%;
 }
 
 
