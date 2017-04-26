@@ -1,4 +1,4 @@
-.footer {
+#footer {
     background-color: #2C3E50;
 }
 
@@ -115,7 +115,11 @@ navbar-nav {
 }
 
 .row-contact {
-    margin: 0% 8%;
+    margin: 0% 8% 3% 14%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 
