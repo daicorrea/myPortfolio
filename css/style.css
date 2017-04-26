@@ -1,3 +1,7 @@
+.footer {
+    background-color: #2C3E50;
+}
+
 .container {
     padding-right: 0px; 
     padding-left: 0px; 
@@ -10,7 +14,6 @@
     margin-right: auto;
     margin-left: auto;
 }
-
 
 /* NavBar */
 .navbar-inverse {
@@ -74,6 +77,10 @@ navbar-nav {
     margin-bottom: 3%;
 }
 
+.myFont {
+    font-size: 50px;
+}
+
 
 /* Images */
 .profilePic {
@@ -104,6 +111,10 @@ navbar-nav {
 }
 
 .row-project {
+    margin: 0% 8%;
+}
+
+.row-contact {
     margin: 0% 8%;
 }
 
