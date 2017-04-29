@@ -11,6 +11,8 @@
     padding-right: 0px; 
     padding-left: 0px; 
     width: 100%;
+    color: #fff;
+    background-color: #18BC9C;
 }
 
 .container-fluid {
@@ -57,8 +59,7 @@ navbar-nav {
 
 /* Sections */
 #aboutMe {
-    color: #fff;
-    background-color: #18BC9C;
+    padding: 5% 0%;
 }
 
 #projects {
