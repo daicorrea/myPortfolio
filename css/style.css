@@ -1,9 +1,10 @@
 #footer {
     background-color: #2C3E50;
     padding: 2% 0% 2% 0%;
+    width: 100%;
 }
 
-.footer>a {
+#footer a:link{
     color: #18BC9C;
 }
 
